@@ -10,12 +10,14 @@ class KotlinUnitTest {
         h.hello()
         val age = 19
         var nickname = "Eton"
-        val name :String
+        val name: String
         name = "menghan"
         println(name)
 
         val bmi = Person(72f, 1.7f).bmi()
-        println("bmi = "+bmi)
+        println("bmi = " + bmi)
+        val eton = Person(65f, 180f, "Eton")
+        println("bmi = " + eton.bmi())
     }
 }
 

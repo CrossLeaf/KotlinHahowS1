@@ -12,6 +12,10 @@ class KotlinUnitTest {
         var nickname = "Eton"
         val name :String
         name = "menghan"
+        println(name)
+
+        val bmi = Person(72f, 1.7f).bmi()
+        println("bmi = "+bmi)
     }
 }
 

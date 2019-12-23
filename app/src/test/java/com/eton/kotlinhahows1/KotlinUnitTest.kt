@@ -8,14 +8,15 @@ class KotlinUnitTest {
 //     println("Hello world")
         val h = Human()
         h.hello()
+        val age = 19
+        var nickname = "Eton"
+        val name :String
+        name = "menghan"
     }
 }
 
 class Human {
     fun hello() {
         println("Hello world1")
-        fun xxx() {
-            println("Hello world2")
-        }
     }
 }

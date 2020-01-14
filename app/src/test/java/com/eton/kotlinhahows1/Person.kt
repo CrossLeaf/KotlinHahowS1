@@ -1,6 +1,7 @@
 package com.eton.kotlinhahows1
 
 class Person(var weight: Float, var height: Float, var name: String = "") {
+
     init {
         if (!name.isBlank())
             println("name = $name")

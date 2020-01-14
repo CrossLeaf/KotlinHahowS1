@@ -13,11 +13,14 @@ class KotlinUnitTest {
         val name: String
         name = "menghan"
         println(name)
-
+        val pp = Person(60f, 1.8f)
         val bmi = Person(72f, 1.7f).bmi()
         println("bmi = " + bmi)
         val eton = Person(65f, 180f, "Eton")
         println("bmi = " + eton.bmi())
+
+        var score = 88
+        println(score > 60)
     }
 }
 

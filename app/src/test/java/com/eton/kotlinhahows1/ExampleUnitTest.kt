@@ -14,4 +14,13 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+    @Test
+    fun test() {
+        var tt = Test(1)
+//        println(tt)
+//        println(tt.t2)
+//        println(tt.t2)
+        tt.列印()
+    }
 }
